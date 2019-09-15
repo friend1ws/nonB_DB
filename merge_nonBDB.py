@@ -11,6 +11,6 @@ for file in allfiles:
         for line in hin:
             F = line.rstrip('\n').split('\t')
             if F[0] == "chr": continue
-            print '\t'.join([F[0], F[3], F[4], F[1], F[2]] + F[5:])
+            print('\t'.join([F[0], F[3], F[4], F[1], F[2]] + F[5:]))
 
 
